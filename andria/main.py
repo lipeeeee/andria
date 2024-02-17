@@ -1,7 +1,5 @@
-import pyMeow
 import logging, coloredlogs
 
-# Setup logging
 coloredlogs.install(
     level="DEBUG",
     fmt="[%(asctime)s] %(levelname)s - %(filename)s - %(message)s",
@@ -16,4 +14,6 @@ coloredlogs.install(
 )
 
 def main():
-    logging.info("INITIALIZING ANDRIA")
+    logging.info("Initializing andria")
+    input()
+
