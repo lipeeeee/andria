@@ -1,3 +1,5 @@
+import pyMeow
+import sys
 import logging, coloredlogs
 
 coloredlogs.install(

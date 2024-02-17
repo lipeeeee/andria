@@ -1,5 +1,5 @@
 import sys
-from ctypes import windll
+from ctypes import windll # pyright: ignore uknown import
 from andria.main import main
 
 if not windll.shell32.IsUserAnAdmin():

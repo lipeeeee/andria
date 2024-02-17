@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "andria"
+version = "0.1.0"
+description = ""
+authors = ["lipeeeee <filipe.pereirafga@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+coloredlogs = "^15.0.1"
+pywin32 = "^306"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
